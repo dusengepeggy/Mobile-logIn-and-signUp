@@ -8,7 +8,7 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 export function Login() {
     return (
         <SafeAreaView style={{ backgroundColor: "#f3f5f6", height: "100%", width: "100%" }}>
-            <Image source={require("../assets/signup.jpg")} style={{ alignSelf: "center", height: "50%", borderBotton: "50%" }} />
+            <Image source={require("../assets/signup.jpg")}  style={{ alignSelf: "center", height: "50%", borderBotton: "50%" }} />
             <View style={{ width: "90%", alignSelf: "center" }}>
                 <Text style={{ fontSize: 25, fontWeight: "600", alignSelf: "center", marginBottom: 10 }}>Log in </Text>
                 <TextInput
