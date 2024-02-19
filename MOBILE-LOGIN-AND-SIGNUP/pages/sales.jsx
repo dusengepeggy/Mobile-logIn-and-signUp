@@ -7,10 +7,12 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 import { LinearGradient } from "expo-linear-gradient"
 import Menu from "../assets/components/menu.jsx"
 import BestSellerList from "../assets/components/bestSeller.jsx"
+import Product from "../assets/components/product.jsx"
 export function Sales() {
     return (
-        <SafeAreaView>
-            <View style={{width:"90%",alignSelf:"center",marginVertical:20,display:"flex",flexDirection:"row",justifyContent:"space-between",justifycontent:"center"}}>
+        <SafeAreaView >
+        <ScrollView>
+            <View style={{width:"90%",alignSelf:"center",marginVertical:10,display:"flex",flexDirection:"row",justifyContent:"space-between",justifycontent:"center"}}>
                 <TouchableOpacity style={{backgroundColor:"whitesmoke" , width:30,height:30,borderRadius:"50%",display:"flex",alignItems:"center",justifyContent:"center"}}>
                     <MaterialCommunityIcons name="arrow-left" size={20} style={{color:"gray"}} />
                 </TouchableOpacity>
@@ -33,7 +35,9 @@ export function Sales() {
 
             </TextInput>
             <Menu/>
-            <BestSellerList/>
+            <BestSellerList  />
+            <Product/>
+        </ScrollView>
         </SafeAreaView>
     )
 }

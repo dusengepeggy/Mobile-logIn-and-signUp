@@ -3,10 +3,10 @@ import { StyleSheet, SafeAreaView, Text, View, ImageBackground, Image, Button, T
 
 function Card2({ id, name, price, img }) {
     return (
-        <View>
+        <View  style={{ width: 220, height: 150,margin:10 }}>
             <ImageBackground
                 source={{ uri: img }}
-                style={{ width: 250, height: 150, margin: 15 }}
+                style={{ width: "100%", height: "100%"}}
                 resizeMode='cover'
                 borderRadius={20}
             >

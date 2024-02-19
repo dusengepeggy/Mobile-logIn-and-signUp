@@ -4,7 +4,7 @@ function Card ({name}){
     return(
         <TouchableOpacity
             // title={`${name}`}
-            style={{color:"black",marginHorizontal:7,borderWidth:2,borderColor:"whitesmoke",paddingVertical:8,paddingHorizontal:20,borderRadius:"18%"}}
+            style={{color:"black",marginHorizontal:7,height:35,marginBottom:15,borderWidth:2,borderColor:"whitesmoke",paddingVertical:8,paddingHorizontal:20,borderRadius:"18%"}}
             
         >
         <Text>{name}</Text>    
