@@ -6,6 +6,8 @@ import MaterialIcons from "react-native-vector-icons/MaterialIcons"
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons"
 import {Login} from "./pages/login"
 import {Home} from "./pages/home"
+import {Sales} from "./pages/sales.jsx"
+
 // import {google} from "./assets/google.png"
 export default function App() {
   return (
@@ -65,8 +67,8 @@ export default function App() {
 
     // </SafeAreaView>
     // <Login/>
-    <Home/>
-
+    // <Home/>
+    <Sales/>
   )
 }
 
