@@ -12,7 +12,7 @@ function Card2({ id, name, price, img }) {
             >
                 <View  style={{ backgroundColor: "#d69548", alignItems:"center", width: "50%", padding: 5,margin:15, borderRadius:50 }}>
                 <Text
-                   
+                      
                 >
                     # {id} Best Seller
                 </Text>
